@@ -1,0 +1,301 @@
+        body,
+        html {
+            background: url("../image/coffee.jpg")center fixed;
+            background-size: cover;
+        }
+        
+        header {
+            text-align: right;
+            color: gray;
+        }
+        
+        .topnav {
+            overflow: hidden;
+        }
+        
+        .topnav a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: oblique;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        h1 {
+            text-align: center;
+            font-style: oblique;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        h2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .head-container {
+            background-color: #111212;
+            opacity: 88%;
+            margin-top: -3pt;
+            padding-bottom: 50pt;
+            padding-top: 10pt;
+        }
+        
+        .heading-container {
+            background-color: #faf6e6;
+            padding-top: 5pt;
+            padding-bottom: 5pt;
+            margin-left: -7px;
+            margin-right: -7px;
+            margin-bottom: 3pt;
+            opacity: 110%;
+        }
+        
+        .choice_container_item1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #faf6e6;
+            border-radius: 10px;
+            margin: 3pt;
+            opacity: 110%;
+        }
+        
+        .choice_container_item2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f6f0;
+            border-radius: 10px;
+            margin: 3pt;
+            opacity: 100%;
+        }
+        
+        .choice_container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .choice_container_item1 {
+            padding: 20pt;
+        }
+        
+        .choice_container_item2 {
+            padding: 20pt;
+        }
+        
+        .size_container {
+            display: flex;
+            flex-direction: row;
+            padding: 20pt;
+            justify-content: center;
+            align-items: center;
+            background-color: #f6fadc;
+            border-radius: 10px;
+            margin-top: 3pt;
+            margin-bottom: 3pt;
+            margin-left: 20%;
+            margin-right: 20%;
+            opacity: 150%;
+        }
+        
+        .size_container_item1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .Extras_heading {
+            display: flex;
+            justify-content: center;
+            background-color: #f0e6ce;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-top: 6pt;
+            margin-left: 20%;
+            margin-right: 20%;
+            opacity: 100%;
+            padding-top: 10pt;
+        }
+        
+        .Extras_container {
+            display: flex;
+            flex-direction: row;
+            padding-top: 0pt;
+            padding-left: 20pt;
+            padding-right: 20pt;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0e6ce;
+            margin-left: 20%;
+            margin-right: 20%;
+            opacity: 100%;
+        }
+        
+        .Extras_container_item1 {
+            padding-top: 0pt;
+            padding-left: 20pt;
+            padding-right: 20pt;
+            padding-bottom: 20pt;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .Extras_container_item2 {
+            padding-top: 0pt;
+            padding-left: 20pt;
+            padding-right: 20pt;
+            padding-bottom: 20pt;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .Extras_container_item3 {
+            padding-top: 0pt;
+            padding-left: 20pt;
+            padding-right: 20pt;
+            padding-bottom: 20pt;
+        }
+        
+        .Current_drink_container {
+            display: flex;
+            flex-direction: row;
+            padding: 20pt;
+            padding-top: 5pt;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0e6ce;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-left: 20%;
+            margin-right: 20%;
+            opacity: 100%;
+        }
+        
+        .Current_drink_container_item1 {
+            padding-right: 10pt;
+        }
+        
+        .Current_drink_container_item2 {
+            padding-left: 10pt;
+        }
+        
+        .Order_container {
+            display: flex;
+            flex-direction: column;
+            padding: 20pt;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0fcf5;
+            border-radius: 10px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 6pt;
+            opacity: 100%;
+        }
+        
+        .Order_container_item1 {
+            padding: 10px;
+            height: 100%;
+            width: 100%;
+        }
+        
+        #Order_details {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .Order_container_item2 {
+            display: flex;
+            flex-direction: row;
+            padding: 20pt;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .Order_container_item2_item1 {
+            padding-right: 10pt;
+        }
+        
+        .Order_container_item2_item1 {
+            padding-left: 10pt;
+        }
+        
+        .contact {
+            font-size: 18px;
+        }
+        
+        footer {
+            padding: .5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: right;
+            color: black;
+        }
+        /* popup */
+        
+        .popup {
+            position: relative;
+            justify-content: center;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        /* The actual popup */
+        
+        .popup .popuptext {
+            visibility: hidden;
+            width: 250px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: 30pt;
+            margin-bottom: 10pt;
+        }
+        /* Popup arrow */
+        
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+        /* Toggle this class - hide and show the popup */
+        
+        .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+        }
+        /* Add animation (fade in the popup) */
+        
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }

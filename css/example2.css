@@ -1,0 +1,128 @@
+        body,
+        html {
+            background: url("../image/AI2.jpg") no-repeat center fixed;
+            background-size: cover;
+        }
+        
+        header {
+            text-align: right;
+            color: mediumpurple;
+            font-weight: bold;
+        }
+        
+        .topnav {
+            overflow: hidden;
+        }
+        
+        .topnav a {
+            float: left;
+            color: greenyellow;
+            -webkit-text-fill-color: greenyellow;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: oblique;
+        }
+        
+        .heading-main {
+            font-style: oblique;
+            text-align: center;
+            font-family: fantasy;
+            color: darkorange;
+            text-decoration: underline;
+        }
+        
+        .AI_1,
+        .AI_2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: italic;
+            color: darkmagenta;
+        }
+        
+        .list {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: italic;
+            color: darkmagenta;
+            list-style-position: inside;
+        }
+        
+        .AI_heading_1 {
+            font-style: italic;
+            font-family: cursive;
+            color: firebrick;
+        }
+        
+        .AI_heading_2 {
+            font-style: italic;
+            font-family: cursive;
+            color: fuchsia;
+        }
+        
+        .AI_heading_3 {
+            font-style: italic;
+            font-family: cursive;
+            color: saddlebrown;
+        }
+        
+        .container-item-1 {
+            padding-bottom: 2px;
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-left: 5px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-style: double;
+            text-align: center;
+            background-color: skyblue;
+            font-size: 25px;
+        }
+        
+        .container-item-2 {
+            padding-bottom: 2px;
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-left: 5px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-style: double;
+            text-align: left;
+            background-color: lightyellow;
+            font-size: 25px;
+        }
+        
+        .container-item-3 {
+            padding-bottom: 2px;
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-left: 5px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-style: double;
+            text-align: center;
+            background-color: lightgreen;
+            font-size: 25px;
+        }
+        
+        h3 {
+            text-align: center;
+        }
+        
+        .contact {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: lightsalmon;
+        }
+        
+        .AI-image-1 {
+            width: 20%;
+            height: 20%;
+            display: block;
+            margin-left: 60%;
+            margin-right: 50%;
+            text-align: right;
+            padding-bottom: 10px;
+        }

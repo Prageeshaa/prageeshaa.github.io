@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Ordering System</title>
+    <link rel="stylesheet" href="css/coffee.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="heading-container">
+        <h1>Coffee Ordering System</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="qualifications.html">Qualifications</a>
+        <a href="skills.html">Skills</a>
+
+    </div>
+
+
+    <div class="head-container">
+
+        <div class="choice_container">
+            <div class="choice_container_item1">
+                <h2>Choice of Drink</h2>
+
+                <input type="radio" id="choice_of_drink" name="choice_of_drink" value="Latte" autofocus>
+                <label for="Latte">Latte</label><br>
+
+                <input type="radio" id="choice_of_drink" name="choice_of_drink" value="Cappuccino">
+                <label for="Cappuccino">Cappuccino</label><br>
+
+                <input type="radio" id="choice_of_drink" name="choice_of_drink" value="Flat_white">
+                <label for="Flat_white">Flat-white</label><br>
+
+                <input type="radio" id="choice_of_drink" name="choice_of_drink" value="Espresso">
+                <label for="Espresso">Espresso</label><br>
+
+                <input type="radio" id="choice_of_drink" name="choice_of_drink" value="Americano">
+                <label for="Americano">Americano</label><br>
+
+            </div>
+            <div class="choice_container_item2" id="choice_container_item2">
+                <h2>Choice of Milk</h2>
+
+                <input type="radio" id="choice_of_milk" name="choice_of_milk" value="Whole-Milk">
+                <label for="Whole-Milk">Whole-Milk</label><br>
+
+                <input type="radio" id="choice_of_milk" name="choice_of_milk" value="Skimmed-Milk">
+                <label for="Skimmed-Milk">Skimmed-Milk</label><br>
+
+                <input type="radio" id="choice_of_milk" name="choice_of_milk" value="Semi-Skimmed-milk" checked>
+                <label for="Semi-Skimmed-milk">Semi-Skimmed-milk</label><br>
+
+                <input type="radio" id="choice_of_milk" name="choice_of_milk" value="Cocconut-Milk">
+                <label for="Cocconut-Milk">Cocconut-Milk</label><br>
+
+                <input type="radio" id="choice_of_milk" name="choice_of_milk" value="Soya-Milk">
+                <label for="Soya-Milk">Soya-Milk</label><br>
+
+            </div>
+        </div>
+
+        <div class="size_container">
+
+            <div class="size_container_item1">
+                <h2>Size of Drink</h2>
+                <input type="radio" id="size_of_drink" name="size_of_drink" value="Small">
+                <label for="Small">Small</label><br>
+
+                <input type="radio" id="size_of_drink" name="size_of_drink" value="Medium" checked>
+                <label for="Medium">Medium</label><br>
+
+                <input type="radio" id="size_of_drink" name="size_of_drink" value="Large">
+                <label for="Large">Large</label><br>
+            </div>
+
+
+
+        </div>
+        <div class="Extras_heading">
+            <h2>Extra's</h2>
+        </div>
+
+        <div class="Extras_container">
+
+            <div class="Extras_container_item1">
+
+                <input type="checkbox" id="sugar_for_drink" name="sugar_for_drink" value="Extra-Sugar">
+                <label>Sugar</label>
+
+            </div>
+            <div class="Extras_container_item2">
+
+                <input type="checkbox" id="cream_for_drink" name="cream_for_drink" value="Extra-Cream">
+                <label>Cream</label>
+
+
+            </div>
+            <div class="Extras_container_item3">
+
+                <label>Shots of Syrup</label>
+                <input type="number" id="syrup_for_drink" name="syrup_for_drink" min="0">
+
+            </div>
+        </div>
+
+        <div class="Current_drink_container">
+            <div class="Current_drink_container_item1">
+                <label for="price_of_current_drink">Price (LKR)</label>
+                <input type="number" id="price_of_current_drink" name="price_of_current_drink" min="0" disabled class="form-control"><br>
+            </div>
+
+            <div class="Current_drink_container_item2">
+                <button type="submit" id="submit_current_drink" name="submit_current_drink" class="btn btn-light">Add To Order</button><br>
+            </div>
+
+        </div>
+
+
+        <div class="Order_container">
+            <h2>Order Receipt</h2>
+            <div class="Order_container_item1 form-group w-100">
+                <textarea id="Order_details" name="Order_details" class="form-control" disabled>
+            </textarea>
+            </div>
+
+            <div class="Order_container_item2">
+                <div class="Order_container_item2_item1">
+                    <label for="total_of_order">Total (LKR)</label>
+                    <input type="number" id="total_of_order" name="total_of_order" min="0" class="form-control" disabled><br>
+                </div>
+                <div class="Order_container_item2_item2">
+                    <button type="submit" id="submit_order" name="submit_order" class="btn btn-dark">Place Order</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popup">
+        <span class="popuptext" id="myPopup"></span>
+    </div>
+
+    <script src="scripts/coffee.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

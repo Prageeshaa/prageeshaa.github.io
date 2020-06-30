@@ -1,0 +1,92 @@
+body,
+html {
+    background: url("../image/AI1.jpg")center fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: right;
+    color: gray;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    color: black;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.topnav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.AI-image-1 {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: 40%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+.heading-main {
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.AI_heading_1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.AI_1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.AI_heading_2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.AI_2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.AI_heading_3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.list {
+    list-style-position: inside;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    padding: .5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    color: grey;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
